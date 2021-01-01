@@ -1,8 +1,3 @@
-(function(){
-    document.querySelector('.nav-wrapper').className = 'nav-wrapper '+appSettings.colourTheme;
-    document.querySelector('.page-footer').className = 'nav-wrapper '+appSettings.colourTheme;
-})()
-
 class UI{
     insertDataToCards(parentID,dataJSON,deaths=true){
         // Data elements

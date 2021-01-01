@@ -1,0 +1,17 @@
+{
+    "name": "covid-uk-data",
+    "version": "1.0.0",
+    "description": "Hopefully a successful deploy of capstone JS project",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "engines": {
+      "node": "12.19.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pauldewilson/live-uk-covid-data"
+    },
+    "license": "MIT"
+  }

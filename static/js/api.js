@@ -42,4 +42,8 @@ class API{
         let data = await request.json();
         return data.data;
     }
+
+    async lastRefreshDate(){
+        
+    }
 }

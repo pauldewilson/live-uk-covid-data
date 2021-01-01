@@ -1,4 +1,3 @@
-/*Adding this because it hasnt recognised change for some reason*/  
 var express = require('express')
 var app = express()
 
@@ -6,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send(__dirname+'/index.html')
+  response.sendFile(__dirname+'/index.html')
 })
 
 app.listen(app.get('port'), function() {
